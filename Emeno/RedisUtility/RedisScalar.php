@@ -27,7 +27,7 @@ class RedisScalar
         }
         $this->expire = $val;
     }
-    final public function connect($server = '127.0.0.1', $port = '9000', $pass = '7C4B62zp3nvE')
+    final public function connect($server, $port, $pass)
     {
         $this->redisObj->connect($server.':'.$port);
         $this->redisObj->auth($pass);
