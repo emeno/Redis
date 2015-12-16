@@ -8,7 +8,7 @@
     "psr-0":{
       "Emeno":""
     }
-  }
+  },
   "require": {
     "emeno/ConnectManagers": "dev-master"
   },
