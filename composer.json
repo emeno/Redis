@@ -8,7 +8,8 @@
     "psr-0":{
       "Emeno":""
     }
-  },
+  }/*,
+  
   "require": {
     "emenotools/ConnectManagers": "dev-master"
   },
@@ -18,4 +19,5 @@
       "url": "https://github.com/emeno/ConnectManagers.git"
     }
   ]
+  */
 }
