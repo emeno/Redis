@@ -1,0 +1,11 @@
+{
+  "require": {
+    "emeno/ConnectManagers": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/emeno/ConnectManagers.git"
+    }
+  ]
+}
