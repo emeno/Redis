@@ -8,8 +8,21 @@
   },
   "repositories": [
     {
-      "type": "vcs",
-      "url": "https://github.com/emeno/ConnectManagers.git"
+        "type": "package",
+        "package": {
+            "name": "emenotools/ConnectManagers",
+            "version": "dev-master",
+            "source": {
+                "url": "git://github.com/emeno/ConnectManagers.git",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "psr-0" : {
+                    "Emeno": ""
+                }
+            }
+        }
     }
   ],
   "autoload":{
