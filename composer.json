@@ -8,8 +8,8 @@
   },
   "repositories": [
     {
-      "type": "git",
-      "url": "git://github.com/emeno/ConnectManagers.git"
+      "type": "vcs",
+      "url": "https://github.com/emeno/ConnectManagers.git"
     }
   ],
   "autoload":{
