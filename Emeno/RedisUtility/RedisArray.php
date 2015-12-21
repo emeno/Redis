@@ -3,7 +3,7 @@ namespace Emeno\RedisUtility;
 class RedisArray extends RedisScalar
 {
     protected $arrKey;
-    public function __construct($arrKey = 'next_key', $expire = 3600, $redis_obj = null)
+    public function __construct($arrKey = 'next_key', $expire = 36000, $redis_obj = null)
     {
         parent::__construct($expire, $redis_obj);
         $this->setArrKey($arrKey);
